@@ -66,7 +66,9 @@
 .p2-box-sec{
     width: 100%;
 }
-
+.con-box-sec{
+    width: 100%;
+}
 .skibi{
     box-shadow: 0px 6px 6px 0px rgba(2,25,65,0.08);
     padding-bottom: 20px;
@@ -85,6 +87,7 @@
     width: 80%;
     border-radius: 10px;
     margin: 0 auto;
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,6 +103,9 @@
 }
 .h1-2nd-section{
     font-size: 35px;
+}
+.boom{
+    font-size: 30px;
 }
 
 .sub2-con{
@@ -206,6 +212,7 @@
     border-radius: 5px;
     align-items: center;
     margin-top: 50px;
+    margin-bottom: 30px;
     background-color: white;
     border-color: rgb(254,164,88);
     color: rgb(254,164,88);
@@ -275,6 +282,27 @@
 .courses-skib{
     background: no-repeat;
 }
+.courses-div{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.div-header{
+    margin-top: 90px;
+}
+.a-1{
+    list-style: none;
+    margin-right: 20px;
+    border-right: 2px white solid;
+    padding-right: 20px;
+}
+.a-2{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
 .aboutus-home{
     background-color: rgb(195,107,255);
     padding-left: 255px;
@@ -334,10 +362,39 @@
     background-position: center center;
     min-height: 50vh;
 }
+.textarea-2{
+    height: 50px;
+    margin-top: 35px;
+}
+.textarea-3{
+    height: 50px;
+    margin-top: 35px;
+}
 
 /* code for responsive Mobile */
 @media (max-width: 576px) {
     .sub2-con {
         margin-top: 30px;
     }
+}
+.send-button{
+    margin-top: 30px;
+    height: 60px;
+    width: 120px;
+    border-color: #C86FFF;
+    color: #C86FFF;
+    background-color: white;
+}
+.send-button:hover{
+    background-color: #C86FFF ;
+    border-color: #C86FFF;
+    color: white;
+}
+.icon-span{
+    width: 30px;
+    height: 50px;
+    margin-top: 100px;
+}
+.extra-info{
+    display: flex;
 }
